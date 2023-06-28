@@ -5,13 +5,13 @@ import Nav from "./Nav";
 import Contact from "./Contact";
 import Home from "./Home";
 import PayPrice from "./PayPrice";
+import "../index.css";
 
 
 function App() {
-  // Code goes here!
   return(
     <>
-      <h1>Hello, folks!</h1>
+      <h1 className="cool">Hello, folks!</h1>
       <Nav />
       <Switch>
         <Route exact path='/'>
