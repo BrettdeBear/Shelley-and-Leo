@@ -1,3 +1,21 @@
 .cool {
     color: red;
 }
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "navigation navigation navigation navigation navigation"
+        "header about about about about"
+        "header about about about about"
+        "header about about about about"
+        "header footer footer footer footer";
+}
+
+.navigation {
+    grid-area: navigation;
+}
