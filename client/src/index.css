@@ -10,10 +10,11 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
         "navigation navigation navigation navigation navigation"
-        "header about about about about"
+        "headerPic about about about about"
         "header about about about about"
         "header about about about about"
         "header footer footer footer footer";
+    gap: 10px;
 }
 
 .navigation {
@@ -27,4 +28,15 @@
     align-items: center;
     list-style: none;
     justify-content: space-evenly;
+}
+
+.brand img {
+    border-radius: 50px;
+    
+}
+
+.headerPic {
+    grid-area: headerPic;
+    max-width: 100%;
+    max-height: auto;
 }

@@ -11,7 +11,8 @@ import "../index.css";
 function App() {
   return(
     <>
-      <h1 className="cool">Hello, folks!</h1>
+      {/* <h1 className="cool">Hello, folks!</h1> */}
+      <img className="headerPic" src="https://github.com/BrettdeBear/Shelley-and-Leo/blob/main/IMG-9158.jpg?raw=true" />
       <Nav />
       <Switch>
         <Route exact path='/'>

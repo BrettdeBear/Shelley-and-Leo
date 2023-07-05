@@ -10,11 +10,6 @@ function Nav() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className="brand" exact to="/">
-                        <img src="https://github.com/BrettdeBear/Shelley-and-Leo/blob/main/IMG-9158.jpg?raw=true" style={{ width : 100 }}/>
-                    </NavLink>
-                </li>
-                <li>
                     <NavLink className="navLink" activeClassName="activeLink" exact to='/pricing'>
                         Pricing
                     </NavLink>
@@ -22,6 +17,11 @@ function Nav() {
                 <li>
                     <NavLink className="navLink" activeClassName="activeLink" exact to='/contact'>
                         Contact
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className="brand" exact to="/">
+                        <img src="https://github.com/BrettdeBear/Shelley-and-Leo/blob/main/Screenshot%202023-07-05%20at%204.18.26%20PM.png?raw=true" style={{ width : 100 }}/>
                     </NavLink>
                 </li>
             </ul>
