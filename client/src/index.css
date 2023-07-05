@@ -18,4 +18,13 @@
 
 .navigation {
     grid-area: navigation;
+    
+}
+
+.navigation ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
 }
