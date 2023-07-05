@@ -23,7 +23,7 @@
 
 .navigation ul {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
     align-items: center;
     list-style: none;
     justify-content: space-evenly;
