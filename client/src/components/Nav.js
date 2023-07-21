@@ -1,22 +1,22 @@
 import { NavLink } from "react-router-dom";
 
-function Nav() {
+function Nav({element}) {
     return (
         <nav className="navigation" >
             <ul>
                 <li>
                     <NavLink className="navLink" activeClassName="activeLink" exact to='/' >
-                        Home
+                        {element} Home {element}
                     </NavLink>
                 </li>
                 <li>
                     <NavLink className="navLink" activeClassName="activeLink" exact to='/pricing'>
-                        Pricing
+                       {element} Pricing {element}
                     </NavLink>
                 </li>
                 <li>
                     <NavLink className="navLink" activeClassName="activeLink" exact to='/contact'>
-                        Contact
+                        {element} Contact {element}
                     </NavLink>
                 </li>
                 <li>

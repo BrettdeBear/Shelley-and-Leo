@@ -8,12 +8,15 @@ import PayPrice from "./PayPrice";
 import "../index.css";
 
 
-function App() {
+
+function App({element}) {
+
+
   return(
     <>
       {/* <h1 className="cool">Hello, folks!</h1> */}
       <img className="headerPic" src="https://github.com/BrettdeBear/Shelley-and-Leo/blob/main/IMG-9158.jpg?raw=true" />
-      <Nav />
+      <Nav element={element}/>
       <Switch>
         <Route exact path='/'>
           <Home />
@@ -25,6 +28,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      
     </>
   )
 }
