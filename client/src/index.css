@@ -90,11 +90,12 @@
     box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
-.navLink:active {
-
+.activeLink {
+    box-shadow: rgba(0, 0, 0, .9) 8px 8px 8px -10px;
+    border-width: 3px;
+    font-weight: bold;
+    transform: translate3d(0, 2px, 0);
 }
-
-
 
 
 .brand img {
