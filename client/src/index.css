@@ -69,7 +69,7 @@
     font-size: 1rem;
     line-height: 23px;
     outline: none;
-    padding: .75rem;
+    padding: .5rem;
     text-decoration: none;
     transition: all 235ms ease-in-out;
     border-bottom-left-radius: 15px 255px;
@@ -107,4 +107,14 @@
     grid-area: headerPic;
     max-width: 100%;
     max-height: auto;
+    border-radius: 5px;
 }
+
+.header {
+    grid-area: header;
+    font-family: Neucha, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
