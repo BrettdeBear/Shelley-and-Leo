@@ -2,7 +2,7 @@
 function Home() {
     return (
         <>
-            <p>Home Page</p>
+            <h3 className="about">Dog Sitting by Michelle</h3>
         </>
     )
 }

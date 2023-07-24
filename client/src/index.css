@@ -125,3 +125,8 @@
     line-height: 1.5em;
 }
 
+.about {
+    text-align: center;
+    grid-area: about;
+}
+

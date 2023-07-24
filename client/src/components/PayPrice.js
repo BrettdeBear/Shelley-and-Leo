@@ -1,6 +1,9 @@
 function PayPrice() {
     return (
-        <p>This costs money and this is how you pay!</p>
+        <>
+            <h3 className="about">Services and Pricing</h3>
+        </>
+        
     )
 }
 

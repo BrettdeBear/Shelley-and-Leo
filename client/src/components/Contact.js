@@ -1,7 +1,9 @@
 
 function Contact() {
     return (
-        <p>This is where the Google Form goes wee!</p>
+        <>
+            <h3 className="about">Fill out the form below for more information</h3>
+        </>
     )
 }
 
